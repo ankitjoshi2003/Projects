@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contorls">
+            <div class="contorl1">
+            <label for="Size">Size :</label>
+            <select name="Size" id="Size">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            </div>
+            <div class="contorl1">
+                <label for="Algorithm">Algorithm :</label>
+                <select name="Algorithm" id="Algorithm">
+                    <option value="Bubble">Bubble Sort</option>
+                    <option value="Selection">Selection Sort</option>
+                    <option value="Insertion">Insertion Sort</option>
+                </select>
+            </div>
+        </div>
+        <div class="field"></div>
+        <div class="buttons">
+        <button class="button" id="init" onclick="init()">init</button>
+        <button class="button" id="play" onclick="play()">play</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
