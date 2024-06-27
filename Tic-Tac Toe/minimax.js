@@ -39,7 +39,7 @@ function minimax(board, depth, isMaximizing) {
         // Is the spot available?
         if (board[i][j] == "") {
           board[i][j] = ai;
-          let score = minimax(board, depth + 1, false);
+          let score = minimax(board, depth + 1, false);    
           board[i][j] = "";
           bestScore = max(score, bestScore);
         }
